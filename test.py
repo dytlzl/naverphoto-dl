@@ -2,8 +2,7 @@ from naverphoto import DLImages
 
 
 def main():
-    instance = DLImages(1058863)
-    instance.main()
+    DLImages(1058863)
 
 
 if __name__ == '__main__':
