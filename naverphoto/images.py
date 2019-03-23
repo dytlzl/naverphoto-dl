@@ -17,6 +17,7 @@ class DLImages:
         self.home_uri = 'https://entertain.naver.com/photo/issue/%s/100' % category_id
         self.title = ''
         self.total = 0
+        self.main()
 
     def main(self):
         self.fetch_title()
